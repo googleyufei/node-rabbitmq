@@ -1,0 +1,1 @@
+关于如何使用node-amqp组件来连接rabbitmq
