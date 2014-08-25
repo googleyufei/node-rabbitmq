@@ -1,6 +1,6 @@
 var redisConnectionFactory=require('./redisConnectionFactory.js')
 ,log=require('./logger.js').getLogger("socketManage")
-,config=require('./config.js');
+,config=require('./../config.js');
 
 var redisClient = redisConnectionFactory.getConnectionToDB(config.redis.socketDB);
 

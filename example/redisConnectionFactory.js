@@ -1,6 +1,6 @@
 var redis = require("redis");
 
-var config=require('./config.js'),
+var config=require('./../config.js'),
 log=require('./logger.js').getLogger("system");
 redis.debug_mode=config.redis.debug_mode;
 

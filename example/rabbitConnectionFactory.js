@@ -1,6 +1,6 @@
 var amqp = require('amqp');
 
-var config=require('./config.js'),
+var config=require('./../config.js'),
 log=require('./logger.js').getLogger("system");
 
 var addresses=[];

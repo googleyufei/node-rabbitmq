@@ -9,12 +9,12 @@ var express = require('express')
 
 require('date-utils');
 
-var config = require('./config.js'),
-    rabbitConnectionFactory = require('./rabbitConnectionFactory.js'),
-    redisConnectionFactory = require('./redisConnectionFactory.js'),
-    log = require('./logger.js').getLogger("system"),
-    socketManage = require('./socketCachedManage.js'),
-    cookieUtil = require('./cookieUtil.js');
+var config = require('./../config.js'),
+    rabbitConnectionFactory = require('./../rabbitConnectionFactory.js'),
+    redisConnectionFactory = require('./../redisConnectionFactory.js'),
+    log = require('./../logger.js').getLogger("system"),
+    socketManage = require('./../socketCachedManage.js'),
+    cookieUtil = require('./../cookieUtil.js');
 
 var port = process.argv[2] || config.socket.port
     , appId = process.argv[3] || 0;

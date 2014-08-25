@@ -1,7 +1,7 @@
 var mix = require('mixture').mix("balanced")
     , bouncy = require('bouncy');
 
-var config = require('./config.js')
+var config = require('./../config.js')
     , log = require('./logger.js').getLogger("system");
 
 var count = require('os').cpus().length

@@ -2,7 +2,7 @@ var redisConnectionFactory=require('./redisConnectionFactory.js')
 ,log=require('./logger.js').getLogger("socketManage")
 , EventEmitter = require('events').EventEmitter
 , util = require('util')
-,config=require('./config.js');
+,config=require('./../config.js');
 
 exports.SocketManage=SocketManage;
 
